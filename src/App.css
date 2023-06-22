@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding : 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* .ag-header-row {
+  background-color: lightsteelblue;
+} */
+.ag-header-row-floating-filter {
+display: none !important;
+}
+.ag-header /*.ag-focus-managed.ag-pivot-off*/{
+  height: 50px !important;
+  min-height: 0px !important;
+  border: solid 1px !important;
+}
+.App-link {
+  color: #61dafb;
+}
+.ag-cell{
+  border-right-color: grey !important;
+}
+.ag-header-cell-label {
+  justify-content: center;
+}
+.MuiButton-root {
+  margin: 3px !important;
+}
+/* .MuiButtonBase-root {
+  margin : 5px;
+} */
+.MuiGrid-root {
+  padding-bottom: 10px;
+}
+.ag-header-cell {
+  border-right :0px solid black !important;
+}
+.MuiPagination-root {
+  flex: none !important;
+  justify-content: right !important;
+
+}
+div[col-id="work-description"] {
+  text-align: left !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
